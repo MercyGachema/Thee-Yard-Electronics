@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- used to specify the document compatibility mode for Internet Explorer (IE) browsers 
+    X-UA-Compatible value of "IE=edge" tells IE to use the latest rendering engine available, regardless of the version of IE being used
+    "IE=edge", you're essentially instructing IE to render the page in the highest available mode-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport goal is to create websites that adapt and display properly on different screen sizes and devices 
+    device-width, the webpage will automatically adjust its layout to fit the screen width of the device 
+    1.0 ensures that the webpage is displayed at a 1:1 scale without any zooming applied by default-->
+
+    <title>The Yard</title>
+
+    <!-- google font  is a free and open-source font library provided by Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- used to establish a connection in advance to a specific domain -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- boxicons is a free and open-source icon library that provides a collection of customizable icons-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600">
+
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">The Yard</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+
+                    <ul class="devided" class="icons">
+                        <li><a href="https://instagram.com/_gachema_?igshid=NGExMmI2YTkyZg==" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="https://twitter.com/missgachema" class="fab fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://instagram.com/_gachema_?igshid=NGExMmI2YTkyZg==" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
+
+                    </ul>
+
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">KSH</a>
+                            <!--<i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">VND</a></li>
+                                <li><a href="#">JPY</a></li>
+                                <li><a href="#">EUR</a></li>
+                            </ul>
+                        </li>-->
+
+                        <li class="dropdown">
+                            <a href="">ENGLISH</a>
+                            <!--<i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">VIETNAMESE</a></li>
+                                <li><a href="#">JAPANESE</a></li>
+                                <li><a href="#">FRENCH</a></li>
+                                <li><a href="#">SPANISH</a></li>
+                            </ul>
+                        </li>-->
+
+                        <li><a href="#">ORDER TRACKING</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo">THEE YARD</a>
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell' ></i></a> Notifications</li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i> User </a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a> Cart</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+
+                    <ul class="main-menu">
+                        <li><a href="./Home.html">home <i class='bx bxs-chevron-down'></i></a></li>
+                        <li><a href="./products.html">shop</a></li>
+
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+
+        </div>
+        <!-- end main header -->
+
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Quality Electronics
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                HEADPHONES
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                               <h3> Immerse Yourself in Sound: Discover High-Quality Headphones</h3>
+
+                                Introducing our premium headphones collection, the epitome of immersive audio experience and unparalleled comfort. Our meticulously designed headphones are crafted to deliver exceptional sound quality, ensuring you never miss a beat
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./images/headphones/prod5.png" alt="Headphones">
+                    </div>
+                </div>
+                <!-- end slide item -->
+
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Quality Electronics
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                AIRPODS
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                               <h3> AirPods: The Future of Wireless Audio</h3>
+
+                                Experience true wireless freedom with our AirPods. Designed to seamlessly connect to your devices, they provide a hassle-free listening experience. Simply take them out of the case, and they automatically pair with your iPhone, iPad, Mac, or Apple Watch. Say goodbye to tangled cables and hello to effortless connectivity.                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="./images/airpods/prod9.jpg" alt="Airpods">
+                    </div>
+                </div>
+                <!-- end slide item -->
+
+
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Quality Electronics
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                IPHONES
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                               <h3> Introducing iPhones: Unleash the Power of Innovation</h3>
+
+                                Welcome to the world of iPhones, where cutting-edge technology meets elegant design. Apple's iconic line of smartphones has revolutionized the way we communicate, work, and enjoy entertainment. With their sleek aesthetics, seamless user experience, and exceptional performance, iPhones have become the gold standard in the mobile industry.   </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./images/phones/Iphone1.jpg" alt="Iphones">
+                    </div>
+                </div>
+
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Quality Electronics
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                SAMSUNG
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                               <h3> Samsung: Redefining Possibilities in the World of Smartphones</h3>
+
+                                Welcome to the world of Samsung smartphones, where innovation, style, and versatility come together to create an exceptional mobile experience. As a global leader in technology, Samsung has consistently pushed the boundaries of what's possible, offering a diverse range of smartphones that cater to every need and preference. Discover the power and sophistication that Samsung brings to the palm of your hand.                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/phones/prod1.jpg" alt="Samsung">
+                    </div>
+                </div>
+
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Quality Electronics
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                TECNO
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                               <h3>Tecno: Empowering Mobile Technology for All</h3> 
+
+                                Welcome to Tecno, a leading brand in the world of mobile technology, dedicated to delivering cutting-edge smartphones that empower and inspire users across the globe. With a commitment to innovation, affordability, and accessibility, Tecno brings advanced features and exceptional performance to everyone. Explore the world of Tecno and experience the perfect blend of technology and value.                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down" >
+                        <img src="./images/phones/prod7.jpg" alt="Tecno">
+                    </div>
+                </div>
+                <!-- end slide item -->
+
+            </div>
